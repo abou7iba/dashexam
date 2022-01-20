@@ -307,10 +307,32 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+.marq-news{
+    position: absolute;
+    width: 100% !important;
+    color: #1A73E8;
+    font-weight: 600;
+    top: 4%;
+    height: 40px;
+    border-left: 5px solid #1A73E8;
+}
+.student-data{
+    position: absolute;
+    right: 5%;
+    top: 14%;
+    padding: 10px;
+    width: 90%;
+    color: #1A73E8;
+    box-shadow: 0 10px 25px rgba(144, 163, 179, 0.2);
 
+
+}
+.data-style{
+    color: #000;
+}
 table{
     position: absolute;
-    top: 15%;
+    top: 40%;
     right: 5%;
     width: 90%;
     margin: auto;
@@ -322,7 +344,7 @@ th{
     color: #1A73E8;
     width: 20%;
     font-weight: 600;
-    background-color: #eee;
+    background-color: ;
 }
 td{
     text-align: center;
@@ -344,3 +366,4 @@ td{
 .status.green {
     background: rgb(6, 192, 6); 
 }
+
